@@ -1,3 +1,41 @@
+workspace.__THINGS.__REMOTES.MAIN:FireServer("b", "bank withdraw")
+local function Bank(id)
+   local self = {}
+   function self:withdraw(pets, gems)
+local A_1 = 
+{
+    [1] = id, 
+    [2] = 
+{
+}, 
+    [3] = gems
+}
+        local Event = game:GetService("Workspace")["__THINGS"]["__REMOTES"]["bank withdraw"]
+        Event:InvokeServer(A_1)
+   end
+   return self
+end
+--//
+local bankid = "469299ad-dafd-48b3-8e9f-92658f9bb21d"--bank
+local bankid = "469299ad-dafd-48b3-8e9f-92658f9bb21d"--bank
+local bankid = "469299ad-dafd-48b3-8e9f-92658f9bb21d"--bank
+local bankid = "469299ad-dafd-48b3-8e9f-92658f9bb21d"--bank
+local bankid = "469299ad-dafd-48b3-8e9f-92658f9bb21d"--bank
+
+for i=5, 999, 0.1 do
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   Bank(bankid):withdraw({}, 1)
+   task.wait(0)
+end
+
 --// Variables
 
 local Players = game:GetService("Players")
